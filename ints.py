@@ -11,3 +11,4 @@ print(intNumber + floatNumber)
 print(intNumber * floatNumber)
 
 print(34 ** 2)
+print("Yay! " * 2 ** 3)
