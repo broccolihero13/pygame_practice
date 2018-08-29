@@ -8,4 +8,5 @@ print(screen_size)
 print(f"width is: {screen_size[0]} \nheight is: {screen_size[1]}")
 
 my_tuple = (1,2)
-print(my_tuple)
+other_tuple = ("screen size",) + my_tuple
+print(other_tuple)
