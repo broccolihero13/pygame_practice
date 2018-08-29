@@ -1,4 +1,4 @@
 #import module_name
-import random
+import random as r
 
-print(random.randint(1,10))
+print(r.randint(1,10))
