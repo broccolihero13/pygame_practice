@@ -2,7 +2,7 @@ import pygame,sys
 
 pygame.init()
 
-width = 900
+width = 1000
 height = 700
 screenDim = (width,height)
 
