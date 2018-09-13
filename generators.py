@@ -23,3 +23,22 @@ odd_ints = odd_number_generator(20)
 odd_ints.__next__()
 odd_ints.__next__()
 print(odd_ints.__next__())
+
+# fibonacci challenge
+def fibonacci_sequence(n):
+    a,b = 0,1
+    while a < n:
+        yield(a)
+        a,b = b, a+b
+        
+
+numbers_in_fib = fibonacci_sequence(100)
+numbers_in_fib.__next__()
+numbers_in_fib.__next__()
+numbers_in_fib.__next__()
+numbers_in_fib.__next__()
+numbers_in_fib.__next__()
+numbers_in_fib.__next__()
+numbers_in_fib.__next__()
+print(numbers_in_fib.__next__())
+
