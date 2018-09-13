@@ -6,7 +6,4 @@ def NumberGenerator(my_str, i):
 
 startNum = NumberGenerator("First", 15)
 
-for i in range(5):
-    startNum.__next__()
-
-print("Bigger than 5")
+print(list(startNum))
